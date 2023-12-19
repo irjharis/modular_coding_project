@@ -1,0 +1,7 @@
+AWS elastic beanstalk error correct
+
+The instance profile aws-elasticbeanstalk-ec2-role associated with the environment does not exist.
+
+
+on the AWS console search I AM  then open it and go to roles then create roles then AWS service and use case EC2 
+	next then add these three permissions	 AWSElasticBeanstalkWebTier		AWSElasticBeanstalkWorkerTier		AWSElasticBeanstalkMulticontainerDocker
